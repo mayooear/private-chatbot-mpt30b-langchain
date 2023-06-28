@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "private-chatbot-mpt30b"
+version = "0.1.0"
+description = "Private chatbot  on your CPU using mpt-30b and langchain"
+authors = ["mayo <Twitter: @mayowaoshin>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.218"
+ctransformers = "^0.2.10"
+huggingface-hub = "^0.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
