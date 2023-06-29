@@ -1,0 +1,388 @@
+Operator
+
+Good afternoon. My name is David, and I'll be your conference operator today. At this time, I'd like to welcome everyone to NVIDIA's first-quarter earnings call. Today's conference is being recorded.
+
+All lines have been placed on mute to prevent any background noise. After the speakers' remarks, there'll be a question-and-answer session. [Operator instructions] Thank you. Simona Jankowski, you may begin your conference.
+
+Simona Jankowski -- Vice President, Investor Relations
+
+Thank you. Good afternoon, everyone, and welcome to NVIDIA's conference call for the first quarter of fiscal 2024. With me today from NVIDIA are Jensen Huang, president and chief executive officer; and Colette Kress, executive vice president and chief financial officer. I'd like to remind you that our call is being webcast live on NVIDIA's investor relations website.
+
+The webcast will be available for replay until the conference call to discuss our financial results for the second quarter of fiscal 2024. The content of today's call is NVIDIA's property. It can't be reproduced or transcribed without our prior written consent. During this call, we may make forward-looking statements based on current expectations.
+
+These are subject to a number of significant risks and uncertainties, and our actual results may differ materially. For a discussion of factors that could affect our future financial results and business, please refer to the disclosure in today's earnings release, our most recent Forms 10-K and 10-Q and the reports that we may file on Form 8-K with the Securities and Exchange Commission. All our statements are made as of today, May 24th, 2023, based on information currently available to us. Except as required by law, we assume no obligation to update any such statements.
+
+During this call, we will discuss non-GAAP financial measures. You can find a reconciliation of these non-GAAP financial measures to GAAP financial measures in our CFO commentary, which is posted on our website. And with that, let me turn the call over to Colette.
+
+Colette Kress -- Executive Vice President and Chief Financial Officer
+
+Thanks, Simona. Q1 revenue was 7.19 billion, up 19% sequentially and down 13% year on year. Strong sequential growth was driven by record data center revenue with our gaming and professional visualization platforms emerging from channel inventory corrections. Starting with data center.
+
+Record revenue of 4.28 billion was up 18% sequentially and up 14% year on year on strong growth of our accelerated computing platform worldwide. Generative AI is driving exponential growth in compute requirements and a fast transition to NVIDIA accelerated computing, which is the most versatile, most energy-efficient, and the lowest TCO approach to train and deploy AI. Generative AI drove significant upside in demand for our products, creating opportunities and broad-based global growth across our markets. Let me give you some color across our three major customer categories: Cloud service providers or CSPs, consumer internet companies, and enterprises.
+
+First, CSPs around the world are racing to deploy our flagship Hopper and Ampere architecture GPUs to meet the surge in interest from both enterprise and consumer, AI applications for training, and inference. Multiple CSPs announced the availability of H100 on their platforms, including private previews at Microsoft Azure, Google Cloud, and Oracle Cloud Infrastructure, upcoming offerings at AWS and general availability at emerging GPU specialized cloud providers like CoreWeave and Lambda. In addition to enterprise AI adoption, these CSPs are serving strong demand for H100 from generative AI pioneers. Second, consumer internet companies are also at the forefront of adopting generative AI and deep learning-based recommendation systems, driving strong growth.
+
+For example, Meta has now deployed its H100-powered brand Teton AI supercomputer for its AI production and research teams. Third, enterprise demand for AI and accelerated computing is strong. We are seeing momentum in verticals such as automotive, financial services, healthcare, and telecom where AI and accelerated computing are quickly becoming integral to customers' innovation road maps and competitive positioning. For example, Bloomberg announced it has a $50 billion parameter model, BloombergGPT, to help with financial natural language processing tasks such as sentiment analysis, named entity recognition, news classification, and question answering.
+
+Auto insurance company, CCC Intelligence Solutions, is using AI for estimating repairs. And AT&T is working with us on AI to improve fleet dispatches so their field technicians can better serve customers. Among other enterprise customers using NVIDIA AI are Deloitte, for logistics and customer service, and Amgen, for drug discovery and protein engineering. This quarter, we started shipping DGX H100, our Hopper generation AI system, which customers can deploy on-prem.
+
+And with the launch of DGX Cloud through our partnership with Microsoft Azure, Google Cloud, and Oracle Cloud Infrastructure, we deliver the promise of NVIDIA DGX to customers from the cloud. Whether customer -- whether the customers deploy DGX on-prem or via DGX Cloud, they get access to NVIDIA AI software, including NVIDIA-based command, end-to-end AI frameworks, and pretrained models. We provide them with the blueprint for building and operating AI, spanning our expertise across systems, algorithms, data processing, and training methods. We also announced NVIDIA AI Foundations, which are model foundry services available on DGX Cloud that enable businesses to build, refine, and operate custom large language models and generative AI models trained with their own proprietary data, created for unique domain-specific tasks.
+
+They include NVIDIA NeMo for large language models; NVIDIA Picasso for images, video, and 3D; and NVIDIA BioNeMo for life sciences. Each service has six elements: pretrained models, frameworks for data processing and curation, proprietary knowledge-based vector databases, systems for fine-tuning, aligning and guardrailing, optimized inference engines, and support from NVIDIA experts to help enterprises fine-tune models for their custom use cases. ServiceNow, a leading enterprise services platform is an early adopter of DGX Cloud and NeMo. They are developing custom large language models trained on data specifically for the ServiceNow platform.
+
+Our collaboration will let ServiceNow create new enterprise-grade generative AI offerings with the thousands of enterprises worldwide running on the ServiceNow platform, including for IT departments, customer service teams, employees, and developers. Generative AI is also driving a step function increase in inference workflows. Because of their size and complexities, these workflows require acceleration. The latest MLPerf industry benchmark released in April showed NVIDIA's inference platforms deliver performance that is orders of magnitude ahead of the industry with unmatched versatility across diverse workloads.
+
+To help customers deploy generative AI applications at scale, at GTC, we announced four major new inference platforms that leverage the NVIDIA AI software stack. These include L4 Tensor Core GPU for AI video; L40 for Omniverse and graphics rendering, H100 NBL for large language models; and the Grace Hopper Superchip for LLM and also recommendation systems and vector databases. Google Cloud is the first CSP to adopt our L4 inference platform with the launch of its G2 virtual machines for generative AI inference and other workloads, such as Google Cloud Dataproc, Google [Inaudible], Google Alpha Fold and Google Cloud's Immersive Stream, which render 3D and AR experiences. In addition, Google is integrating our Triton Inference Server with Google Kubernetes engine and its cloud-based Vertex AI platform.
+
+In networking, we saw strong demand at both CSPs and enterprise customers for generative AI and accelerated computing, which require high-performance networking like NVIDIA's Mellanox networking platforms. Demand relating to general purpose CPU infrastructure remains soft. As generative AI applications grow in size and complexity, high-performance networks become essential for delivering accelerated computing at data center scale to meet the enormous demand of both training and inferencing. Our 400-gig Quantum-2 InfiniBand platform is the gold standard for AI-dedicated infrastructure, with broad adoption across major cloud and consumer internet platforms, such as Microsoft Azure.
+
+With the combination of in-network computing technology and the industry's only end-to-end data center scale optimized software stack, customers routinely enjoy a 20% increase in throughput for their sizable infrastructure investment. For multi-tenant cloud transitioning to support generative AI, our high-speed ethernet platform with BlueField-3 DPUs and Spectrum-4 ethernet switching offers the highest available ethernet network performance. BlueField-3 is in production and has been adopted by multiple hyperscale and CSP customers, including Microsoft Azure, Oracle Cloud, CoreWeave, Baidu, and others. We look forward to sharing more about our 400-gig spectrum for accelerated AI networking platform next week at the COMPUTEX conference in Taiwan.
+
+Lastly, our Grace data center CPU is sampling with customers. At this week's International Supercomputing Conference in Germany, the University of Bristol announced a new supercomputer based on the NVIDIA Grace CPU superchip, which is 6x more energy efficient than the previous supercomputer. This adds to growing momentum for Grace with both CPU-only and CPU-GPU opportunities across AI and cloud and supercomputing applications. The coming wave of BlueField-3, Grace, and Grace Hopper superchips will enable a new generation of super energy-efficient accelerated data centers.
+
+Now, let's move to gaming. Gaming revenue of 2.24 billion was up 22% sequentially and down 38% year on year. Strong sequential growth was driven by sales of the 40 Series GeForce RTX GPUs for both notebooks and desktops. Overall, end demand was solid and consistent with seasonality, demonstrating resilience against a challenging consumer spending backdrop.
+
+The GeForce RTX 40 Series GPU laptops are off to a great start, featuring four NVIDIA inventions, RTX path tracing, DLSS 3 AI rendering, Reflex Ultra-low latency rendering, and Max-Q energy-efficient technologies. They deliver tremendous gains in industrial design, performance, and battery life for gamers and creators. Unlike our desktop offerings, 40 Series laptops support the NVIDIA Studio platform for software technologies, including acceleration for creative data science and AI workflows, and Omniverse, giving content creators unmatched tools and capabilities. In desktop, we ramped the RTX 4070, which joined the previously launched RTX 4090, 4080, and the 4070 TI GPUs.
+
+The RTX 4070 is nearly 3x faster than the RTX 2070 and offers our large installed base, a spectacular upgrade. Last week, we launched the 60 family, RTX 4060 and 4060 TI, bringing our newest architecture to the world's core gamers starting at just $299. These GPUs, for the first time, provide 2x the performance of the latest gaming console at mainstream price points. The 4060 TI is available starting today, while the 4060 will be available in July.
+
+Generative AI will be transformative to gaming and content creation from development to runtime. At the Microsoft Build Developer Conference earlier this week, we showcased how Windows PCs and workstations with NVIDIA RTX GPUs will be AI-powered at their core. NVIDIA and Microsoft have collaborated on end-to-end software engineering, spanning from the Windows operating system to the NVIDIA graphics drivers and NeMo LLM framework to help make Windows on NVIDIA RTX Tensor Core GPUs a supercharged platform for generative AI. Last quarter, we announced a partnership with Microsoft to bring Xbox PC games to GeForce NOW.
+
+The first game from this partnership, Gears 5, is now available, with more set to be released in the coming months. There are now over 1,600 games on GeForce NOW, the richest content available on any cloud gaming service. Moving to pro visualization. Revenue of 295 million was up 31% sequentially and down 53% year on year.
+
+Sequential growth was driven by stronger workstation demand across both mobile and desktop form factors, with strength in key verticals such as public sector, healthcare, and automotive. We believe the channel inventory correction is behind us. The ramp of our Ada Lovelace GPU architecture in workstations kicks off a major product cycle. At GTC, we announced six new RTX GPUs for laptops and desktop workstations, with further rollouts planned in the coming quarters.
+
+Generative AI is a major new workload for NVIDIA-powered workstation. Our collaboration with Microsoft transforms Windows into the ideal platform for creators and designers harnessing generative AI to elevate their creativity and productivity. At GTC, we announced NVIDIA Omniverse Cloud and NVIDIA Fully Managed Service, running in Microsoft Azure, that includes the full suite of Omniverse applications and NVIDIA OVX infrastructure. Using this full stack cloud environment, customers can design, develop, deploy, and manage industrial metaverse applications.
+
+NVIDIA Omniverse Cloud will be available starting in the second half of this year. Microsoft NVIDIA will also connect Office365 applications with Omniverse. Omniverse Cloud is being used by companies to digitize the workflows from design and engineering to smart factories and 3D content generation for marketing. The automotive industry has been a leading early adopter of Omniverse, including companies such as BMW Group, Geely Lotus, General Motors and Jaguar Land Rover.
+
+Moving to automotive. Revenue was 296 million, up 1% sequentially and up 114% from a year ago. Our strong year-on-year growth was driven by the ramp of the NVIDIA DRIVE Orin across a number of new energy vehicles. As we announced in March, our automotive design win pipeline over the next six years now is down at 14 billion, up from $11 billion a year ago, giving us visibility into continued growth over the coming years.
+
+Sequentially, growth moderated as some NAV customers in China are adjusting their production schedules to reflect lower-than-expected demand growth. We expect this dynamic to linger for the rest of the calendar year. During the quarter, we expanded our partnership with BYD, the world's leading manufacturer of NAVs. Our new design win will extend BYD's use of the DRIVE Orin to its next-generation, high-volume Dynasty and Ocean series of vehicles set to start production in calendar 2024.
+
+Moving to the rest of the P&L. GAAP gross margins was 64.6%, and non-GAAP gross margins were 66.8%. Gross margins have now largely recovered to prior peak levels as we have absorbed higher costs and offset them by innovating and delivering higher-valued products, as well as products incorporating more and more software. Sequentially, GAAP operating expenses were down 3%, and non-GAAP operating expenses were down 1%.
+
+We have held opex at roughly the same level over the last -- past four quarters while working through the inventory corrections in gaming and professional visualization. We now expect to increase investments in the business while also delivering operating leverage. We returned 99 million to shareholders in the form of cash dividends. At the end of Q1, we have approximately 7 billion remaining under our share repurchase authorization through December 2023.
+
+Let me turn to the outlook for the second quarter of fiscal '24. Total revenue is expected to be 11 billion, plus or minus 2%. We expect this sequential growth to largely be driven by data center, reflecting a steep increase in demand related to generative AI and large language models. This demand has extended our data center visibility out a few quarters, and we have procured substantially higher supply for the second half of the year.
+
+GAAP and non-GAAP gross margins are expected to be 68.6% and 70%, respectively, plus or minus 50 basis points. GAAP and non-GAAP operating expenses are expected to be approximately 2.71 billion and 1.9 billion, respectively. GAAP and non-GAAP other income and expenses are expected to be an income of approximately 90 million, excluding gains and losses from nonaffiliated investments. GAAP and non-GAAP tax rates are expected to be 14%, plus or minus 1%, excluding any discrete items.
+
+Capital expenditures are expected to be approximately 300 million to 350 million. Further financial details are included in the CFO commentary and other information available on our IR website. In closing, let me highlight some of the upcoming events. Jensen will give the COMPUTEX keynote address in person in Taipei this coming Monday, May 29th, local time, which will be Sunday evening in the U.S.
+
+In addition, we will be attending the BofA Global Technology Conference in San Francisco on June 6th, and Rosenblatt Virtual Technology Summit on the Age of AI on June 7th, and the New Street Future of Transportation Virtual Conference on June 12th. Our earnings call to discuss the results of our second quarter of fiscal '24 is scheduled for Wednesday, August 23rd. Well, that covers our opening remarks. We're now going to open the call for questions.
+
+Operator, would you please poll for questions?
+
+Questions & Answers:
+Operator
+
+Thank you. [Operator instructions] We ask that you please limit yourself to one question. We'll pause for just a moment to compile the Q&A roster. We'll take our first question from Toshiya Hari with Goldman Sachs.
+
+Your line is open.
+
+Toshi Hari -- Goldman Sachs -- Analyst
+
+Hi. Good afternoon. Thank you so much for taking the question, and congrats on the strong results and incredible outlook. Just one question on data center.
+
+Colette, you mentioned the vast majority of the sequential increase in revenue this quarter will come from data center. I was curious what the construct is there, if you can speak to what the key drivers are from April to July. And perhaps more importantly, you talked about visibility into the second half of the year. I'm guessing it's more of a supply problem at this point.
+
+What kind of sequential growth beyond the July quarter can your supply chain support at this point? Thank you.
+
+Colette Kress -- Executive Vice President and Chief Financial Officer
+
+OK. So, a lot of different questions there, so let me see if I can start, and I'm sure Jensen will have some following-up comments. So, when we talk about our sequential growth that were expected between Q1 and Q2, our generative AI, large language models are driving this surge in demand. And it's broad-based across both our consumer Internet companies, our CSPs, our enterprises, and our AI start-ups.
+
+It is also interest in both of our architectures, both of our Hopper latest architecture, as well as our Ampere architecture. This is not surprising as we generally often sell both of our architectures at the same time. This is also a key area where deep recommendators are driving growth. And we also expect to see growth both in our computing, as well as in our networking business.
+
+So, those are some of the key things that we have baked in when we think about the guidance that we have provided to Q2. We also surfaced in our opening remarks that we are working on both supply today for this quarter, but we have also procured a substantial amount of supply for the second half. We have some significant supply chain flow to serve our significant customer demand that we see. And this is demand that we see across a wide range of different customers.
+
+They are building platforms for some of the largest enterprises but also setting things up at the CSPs and the large consumer internet companies. So, we have visibility right now for our data center demand that has probably extended out a few quarters. And this led us to working on quickly procuring that substantial supply for the second half. I'm going to pause there and see if Jensen wants to add a little bit more.
+
+Jensen Huang -- President and Chief Executive Officer
+
+I thought that was great, Colette. Thank you.
+
+Operator
+
+Next, we'll go to C.J. Muse with Evercore ISI. Your line is open.
+
+C.J. Muse -- Evercore ISI -- Analyst
+
+Yeah. Good afternoon. Thank you for taking the question. You know, I guess with data center essentially doubling quarter on quarter, two natural kind of questions that relate to one another come to mind.
+
+Number one, where are we in terms of driving acceleration into servers to support AI? And as part of that, as you deal with longer cycle times with TSMC and your other partners, how are you thinking about managing their commitments there with where you want to manage your lead times in the coming years to best kind of match that supply and demand? Thanks so much.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yes, C.J. Thanks for the question. I'll start backwards. The -- remember, we were in full production of both Ampere and Hopper when the ChatGPT moment came.
+
+And it helped everybody crystallize how to transition from the technology of large language models to a product and service based on a chatbot. The integration of guardrails and alignment systems with reinforcement learning from human feedback, knowledge vector databases for proprietary knowledge, connection to search, all of that came together in a really wonderful way. And it's -- the reason why I call it the iPhone moment, all the technology came together and helped everybody realize what an amazing product it can be and what capabilities it can have. And so, we were already in full production.
+
+NVIDIA's supply chain flow and our supply chain is very significant, as you know. And we build supercomputers in volume, and these are giant systems, and we build them in volume. It includes, of course, the GPUs. But on our GPUs, the system boards have 35,000 other components.
+
+And the networking and the fiber optics and the incredible transceivers and the NICs, the SmartNICs, the switches, all of that has to come together in order for us to stand up a data center. And so, we were already in full production when that moment came. We had to really significantly increase our procurement substantially for the second half, as Colette said. Now, let me talk about the bigger picture and why the entire world's data centers are moving toward accelerated computing.
+
+It's been known for some time, and you've heard me talk about it, that accelerated computing is a full stack problem but -- is full stack challenged. But if you could successfully do it in a large number of application domain that's taken us 15 years, it's sufficiently that almost the entire data centers' major applications could be accelerated, you could reduce the amount of energy consumed and the amount of cost for our data center substantially by an order of magnitude. It costs a lot of money to do it because you have to do all the software and everything, and you have to build all the systems and so on and so forth. But we've been at it for 15 years.
+
+And what happened is when generative AI I came along, it triggered a killer app for this computing platform that's been in preparation for some time. And so, now, we see ourselves in two simultaneous transitions: the world's $1 trillion data center is nearly populated entirely by CPUs today. And $1 trillion is $250 billion a year. It's growing, of course.
+
+But over the last four years, call it $1 trillion worth of infrastructure installed, and it's all completely based on CPUs and dumb NICs. It's basically unaccelerated. In the future, it's fairly clear now with this -- with generative AI becoming the primary workload of most of the world's data centers generating information, it is very clear now that -- and the fact that accelerated computing is so energy-efficient, that the budget of a data center will shift very dramatically toward accelerated computing, and you're seeing that now. We're going through that moment right now as we speak while the world's data center capex budget is limited.
+
+But at the same time, we're seeing incredible orders to retool the world's data centers. And so, I think you're starting -- you're seeing the beginning of, call it, a 10-year transition to basically recycle or reclaim the world's data centers and build it out as accelerated computing. You'll have a pretty dramatic shift in the spend of a data center from traditional computing and to accelerate computing with SmartNICs, smart switches, of course, GPUs and the workload is going to be predominantly generative AI.
+
+Operator
+
+OK. We'll move to our next question, Vivek Arya with BofA Securities. Your line is open.
+
+Vivek Arya -- Bank of America Merrill Lynch -- Analyst
+
+Thanks for the question. I just wanted to clarify, does visibility mean data center sales can continue to grow sequentially in Q3 and Q4, or do they sustain at Q2 level? So, I just wanted to clarify that. And then, Jensen, my question is that given this very strong demand environment, what does it do to the competitive landscape? Does it invite more competition in terms of custom ASICs? Does it invite more competition in terms of other GPU solutions or other kinds of solutions? What -- how do you see the competitive landscape change over the next two to three years?
+
+Colette Kress -- Executive Vice President and Chief Financial Officer
+
+Yeah, Vivek. Thanks for the question. Let me see if I can add a little bit more color. We believe that the supply that we will have for the second half of the year will be substantially larger than H1.
+
+So, we are expecting, not only the demand that we just saw in this last quarter, the demand that we have in Q2 for our forecast, but also planning on seeing something in the second half of the year. We just have to be careful here, but we're not here to guide on the second half. But yes, we do plan a substantial increase in the second half compared to the first half.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Regarding competition, we have competition from every direction, start-ups, really, really well funded and innovative start-ups, countless of them all over the world. We have competitions from existing semiconductor companies. We have competition from CSPs with internal projects, and many of you know about most of these. And so, we're mindful of competition all the time, and we get competition all the time.
+
+NVIDIA's value proposition at the core is we are the lowest cost solution. We're the lowest TCO solution. And the reason for that is because accelerated computing is two things that I talked about often, which is it's a full stack problem. It's a full stack challenge.
+
+You have to engineer all of the software and all the libraries and all the algorithms, integrate them into and optimize the frameworks and optimize it for the architecture of not just one chip but the architecture of an entire data center all the way into the frameworks, all the way into the models. And the amount of engineering and distributed computing -- fundamental computer science work is really quite extraordinary. It is the hardest computing as we know. And so, number one, it's a full stack challenge, and you have to optimize it across the whole thing and across just a mind-blowing number of stacks.
+
+We have 400 acceleration libraries. As you know, the amount of libraries and frameworks that we accelerate is pretty mind-blowing. The second part is that generative AI is a large-scale problem and it's a data center scale problem. It's another way of thinking that the computer is the data center or the data center is the computer.
+
+It's not the chip, it's the data center. And it's never happened like this before. And in this particular environment, your networking operating system, your distributed computing engines, your understanding of the architecture of the networking gear, the switches, and the computing systems, the computing fabric, that entire system is your computer. And that's what you're trying to operate.
+
+And so, in order to get the best performance, you have to understand full stack and understand data center scale. And that's what accelerated computing is. The second thing is that utilization, which talks about the amount of the types of applications that you can accelerate and the versatility of your architecture keeps that utilization high. If you can do one thing and do one thing only incredibly fast, then your data center is largely underutilized, and it's hard to scale that out.
+
+NVIDIA's universal GPU, the fact that we accelerate so many of these stacks, makes our utilization incredibly high. And so, number one is steer put, and that's software-intensive problems and data center architecture problem. The second is digitalization versatility problem. And the third, it's just data center expertise.
+
+We've built five data centers of our own, and we've helped companies all over the world build data centers. And we integrate our architecture into all the world's clouds. From the moment of delivery of the product to the standing up and the deployment, the time to operations of a data center is measured not -- it can -- if you're not good at it and not proficient at it, it could take months. Standing up a supercomputer -- let's see.
+
+Some of the largest supercomputers in the world were installed about 1.5 years ago, and now they're coming online. And so, it's not unheard of to see a delivery to operations of about a year. Our delivery to operations is measured in weeks. And that's -- we've taken data centers and supercomputers, and we've turned it into products.
+
+And the expertise of the team in doing that is incredible. And so, our value proposition is in the final analysis. All of this technology translates into infrastructure, the highest throughput and the lowest possible cost. And so, I think our market is, of course, very, very competitive, very large, but the challenge is really, really great.
+
+Operator
+
+Next, we go to Aaron Rakers with Wells Fargo. Your line is open.
+
+Aaron Rakers -- Wells Fargo Securities -- Analyst
+
+Yeah. Thank you for taking a question, and congrats on the quarter. As we kind of think about unpacking the various different growth drivers of the data center business going forward, I'm curious, Colette, of just how we should think about the monetization effect of software considering that the expansion of your cloud service agreements continues to grow. I'm curious of what -- where do you think we're at in terms of that approach, in terms of the AI enterprise software suite and other drivers of software-only revenue going forward?
+
+Colette Kress -- Executive Vice President and Chief Financial Officer
+
+Thanks for the question. Software is really important to our accelerated platforms. Not only do we have a substantial amount of software that we are including in our newest architecture and essentially all products that we have, we're now with many different models to help customers start their work in generative AI and accelerated computing. So, anything that we have here from DGX Cloud on providing those services, helping them build models, or, as you've discussed, the importance of NVIDIA AI Enterprise, essentially, that operating system for AI, so all things should continue to grow as we go forward, both the architecture and the infrastructure, as well as the -- both availability of the software and our ability to monetize that with it as well.
+
+I'll turn it over to Jensen if needs to comment.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yes. We can see in real time the growth of generative AI in CSPs, both for training the models, refining the models, as well as deploying the models. As Colette said earlier, inference is now a major driver of accelerated computing because generative AI is used so capably in so many applications already. There are two segments that require a new stack of software, and the two segments are enterprise and industrials.
+
+Enterprise requires a new stack of software because many enterprises need to have all the capabilities that we've talked about, whether it's large language models, the ability to adapt them for your proprietary use case, and your proprietary data and alignment to your own principles and your own operating domains. You want to have the ability to be able to do that in a high-performance computing sandbox, and we call that DGX Cloud and -- to create that model. Then, you want to deploy your chatbot or your AI in any cloud because you have services and you have agreements with multiple cloud vendors and depending on the applications, you might deploy it on various clouds. And for the enterprise, we have NVIDIA AI Foundations for helping you create custom models, and we have NVIDIA AI Enterprise.
+
+NVIDIA AI Enterprise is the only accelerated stack -- GPU accelerated stack in the world that is enterprise safe and enterprise supported. There are constant patching that you have to do. There are 4,000 different packages that build up NVIDIA AI Enterprise and represents the operating engine -- end-to-end operating engine of the entire AI workflow. It's the only one of its kind from data ingestion, data processing.
+
+Obviously, in order to train an AI model, you have a lot of data you have to process and package up and curate and align. And there's just a whole bunch of stuff that you have to do to the data to prepare it for training. That amount of data could consume some 40%, 50%, 60% of your computing time. And so, data processing is a very big deal.
+
+And then, the second aspect of it is training the model, refining the model. And the third is deploying model for inferencing.NVIDIA AI Enterprise supports and patches and security patches continuously all of those 4,000 packages of software. And for an enterprise that wants to deploy their engines just like they want to deploy Red Hat Linux, this is incredibly complicated software. In order to deploy that in every cloud and as well as on-prem, it has to be secure.
+
+It has to be supported. And so, NVIDIA AI Enterprise is the second part. The third is Omniverse. Just as people are starting to realize that you need to align an AI to ethics, the same for robotics.
+
+You need to align the AI for physics, and aligning an AI for ethics includes a technology called reinforcement learning human feedback. In the case of industrial applications and robotics, it's reinforcement learning Omniverse feedback. And Omniverse is a vital engine for software-defined and robotic applications and industries. And so, Omniverse also needs to be a cloud service platform.
+
+And so, our software stack, the three software stacks, AI Foundations, AI Enterprise, and Omniverse, runs in all of the world's clouds that we have partnerships, DGX Cloud partnerships with. Azure, we have partnerships on both AI, as well as Omniverse. With GCP and Oracle, we have great partnerships in DGX Cloud for AI, and AI Enterprise is integrated into all three of them. And so, I think the -- in order for us to extend the reach of AI beyond the cloud and into the world's enterprise and into the world's industries, you need two new types of -- you need new software stacks in order to make that happen.
+
+And by putting it in the cloud, integrated into the world CSP clouds, it's a great way for us to partner with the sales and the marketing team and the leadership team of all the cloud vendors.
+
+Operator
+
+Next, we'll go to Timothy Arcuri with UBS. Your line is open.
+
+Tim Arcuri -- UBS -- Analyst
+
+Thanks a lot. I had a question, and then, I have a clarification as well. So, the question, first, is, Jensen, on the InfiniBand versus ethernet argument, can you sort of speak to that debate and maybe how you see it playing out? I know you need the low latency of InfiniBand for AI. But can you sort of talk about the attach rate of your InfiniBand solutions to what you're shipping on the core compute side and maybe whether that's similarly crowding out ethernet like you are with -- on the compute side? And then the clarification, Colette, is that there wasn't a share buyback despite you still having about $7 billion on the share repo authorization.
+
+Was that just timing? Thanks.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Colette, how about you go first? You take the question first.
+
+Colette Kress -- Executive Vice President and Chief Financial Officer
+
+Sure. That is correct. We have 7 billion available in our current authorization for repurchases. We did not repurchase anything in this last quarter, but we do repurchase opportunistically, and we'll consider that as we go forward as well.
+
+Thank you.
+
+Jensen Huang -- President and Chief Executive Officer
+
+InfiniBand and ethernet are -- target different applications in a data center. They both have their place. InfiniBand had a record quarter. We're going to have a giant record year.
+
+And InfiniBand has a really -- NVIDIA's Quantum InfiniBand has an exceptional road map. It's going to be really incredible. The two networks are very different. InfiniBand is designed for an AI factory, if you will.
+
+If that data center is running a few applications for a few people for a specific use case and is doing it continuously, and that infrastructure costs you, pick a number, $500 million. The difference between InfiniBand and ethernet could be 15%, 20% in overall throughput. And if you spent $500 million on an infrastructure and the difference is 10% to 20%, and it's $100 million, InfiniBand's basically free. That's the reason why people use it.
+
+InfiniBand is effectively free. The difference in data center throughput is just -- it's too great to ignore. And you're using it for that one application. And so -- however, if your data center is a cloud data center and it's multi-tenant, it's a bunch of little jobs, a bunch of little jobs and is shared by millions of people, then ethernet is really the right answer.
+
+There's a new segment in the middle where the cloud is becoming a generative AI cloud. It's not an AI factory per se, but it's still a multi-tenant cloud, but it wants to run generative AI workloads. This new segment is a wonderful opportunity. And at COMPUTEX -- I referred to it at the last GTC.
+
+At COMPUTEX, we're going to announce a major product line for this segment, which is for ethernet-focused generative AI application type of clouds. But InfiniBand is doing fantastically, and we're doing record numbers quarter on quarter, year on year.
+
+Operator
+
+Next, we'll go to Stacy Rasgon with Bernstein Research. `your line is open.
+
+Stacy Rasgon -- Bernstein Research -- Analyst
+
+Hi, guys. Thanks for taking my question. I had a question on inference versus training for generative AI. So, you're talking about inference as being a very large opportunity.
+
+I guess two subparts of that. Is that because inference basically scales with like the usage versus like training is more of a one and done? And can you give us some sort of -- even if it's just like qualitatively, like do you think inference is bigger than training or vice versa? Like if it's bigger, how much bigger? Is it like the opportunity, is it 5x? Is it 10x? Is there anything you can give us on those two workloads within generative AI, would be helpful?
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yeah. I'll work backwards. You're never done with training. You're always -- every time you deploy, you're collecting new data.
+
+When you collect new data, you train with the new data. And so, you're never done training. You're never done producing and processing a vector database that augments the large language model. You're never done with vectorizing all of the collected structured, unstructured data that you have.
+
+And so, whether you're building a recommender system, a large language model, a vector database, these are probably the three major applications of -- the three core engines, if you will, of the future of computing, as well as a bunch of other stuff. But obviously, these are very -- three very important ones. They are always, always running. You're going to see that more and more companies realize they have a factory for intelligence -- an intelligence factory.
+
+And in that particular case, it's largely dedicated to training and processing data and vectorizing data and learning representation of the data, so on and so forth. The inference part of it are APIs that are either open APIs that can be connected to all kinds of applications, APIs that are integrated into workflows but APIs of all kinds. There will be hundreds of APIs in a company. Some of them, they built themselves.
+
+Some of them, part that -- many of them could come from companies like ServiceNow and Adobe that we're partnering with in AI Foundations. And they'll create a whole bunch of generative AI APIs that companies can then connect into their workflows or use as an application. And, of course, there'll be a whole bunch of internet service companies. And so, I think you're seeing for the very first time, simultaneously, a very significant growth in the segment of AI factories, as well as a market that -- a segment that really didn't exist before but now it's growing exponentially, practically by the week, for AI inference with APIs.
+
+The simple way to think about it in the end is that the world has a $1 trillion of data center installed, and it used to be 100% CPUs. In the future, we know -- we've heard it in enough places, and I think this year's ISC keynote was actually about the end of Moore's Law. We've seen it in a lot of places now that you can't reasonably scale out data centers with general purpose computing and that accelerated computing is the path forward. And now, it's got a killer app.
+
+It's called generative AI. And so, the easiest way to think about that is your $1 trillion infrastructure. Every quarter's capital, capex budget would lean very heavily into generative AI, into accelerated computing infrastructure, everywhere from the number of GPUs that would be used in the capex budget to the accelerated switches and accelerated networking chips that connect them all. The easiest way to think about that is, over the next four, five, 10 years, most of that $1 trillion and then compensating, adjusting for all the growth in data center still, it will be largely generative AI.
+
+And so, that's probably the easiest way to think about that, and that's training as well as inference.
+
+Operator
+
+Good. Next, we'll go to Joseph Moore with Morgan Stanley. Your line is open.
+
+Joe Moore -- Morgan Stanley -- Analyst
+
+Great. Thank you. I wanted to follow up on that in terms of the focus on inference. It's pretty clear that this is a really big opportunity around large language models.
+
+But the cloud customers are also talking about trying to reduce cost per query by very significant amounts. Can you talk about the ramifications of that for you guys? Is that where some of the specialty inference products that you launched at GTC come in? And just how are you going to help your customers get the cost per query down?
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yeah. That's a great question. Whether you're -- whether -- you start by building a large language model, and you use that large language model, very large version, and you could distill them into medium, small, and tiny size. And the tiny sized ones, you could put in your phone and your PC and so on and so forth.
+
+And they all have good -- they all have -- it seems surprising, but they all can do the same thing. But obviously, the zero shot or the generalizability of the large language model, the biggest one is much more versatile, and it can do a lot more amazing things. And the large one would teach the smaller ones how to be good AIs, and so you use the large one to generate prompts to align the smaller ones and so on and so forth. And so, you start by building very large ones, and then you also have to train a whole bunch of smaller ones.
+
+That's exactly the reason why we have so many different sizes of our inference. You saw that I announced L4, L40, H100 NVL, which also has H100. And then, it has -- and then, we have H100 HGX, and then we have H100 multinode with NVLink. And so, there's a -- you could have model sizes of any kind that you like.
+
+The other thing that's important is these are models, but they're connected ultimately to applications. And the applications could have image in, video out, video in, text out, image in, proteins out, text in, 3D out, video in, in the future, 3D graphics out. So, the input and the output requires a lot of pre and postprocessing. The pre and postprocessing can't be ignored.
+
+And this is one of the things that most of the specialized chip arguments fall apart. And it's because the length -- the model itself is only, call it, 25% of the data -- of the overall processing of inference. The rest of it is about preprocessing, postprocessing, security, decoding, all kinds of things like that. And so, I think the -- we -- the multi-modality aspect of inference, the multidiversity of inference that it's going to be done in the cloud on-prem, it's going to be done in multi-cloud.
+
+That's the reason why we have AI Enterprise in all the clouds. It's going to be done on-prem. It's the reason why we have a great partnership with Dell we just announced the other day called Project Helix. That's going to be integrated into third-party services.
+
+That's the reason why we have a great partnership with ServiceNow and Adobe because they're going to be creating a whole bunch of generative AI capabilities. And so, there's a -- the diversity and the reach of generative AI is so broad, you need to have some very fundamental capabilities like what I just described in order to really address the whole space of it.
+
+Operator
+
+Next, we'll go to Harlan Sur with JPMorgan. Your line is open.
+
+Harlan Sur -- JPMorgan Chase and Company -- Analyst
+
+Hi. Good afternoon, and congratulations on the strong results and execution. I really appreciate more of the focus or some of the focus today on your networking products. I mean, it's really an integral part to sort of maximize the full performance of your compute platforms.
+
+I think your data center networking business is driving about $1 billion of revenues per quarter, plus or minus. That's 2.5x growth from three years ago, right, when you guys acquired Mellanox, so very strong growth. But given the very high attach of your InfiniBand ethernet solutions, your accelerated compute platforms, is the networking run rate stepping up in line with your compute shipments? And then, what is the team doing to further unlock more networking bandwidth going forward just to keep pace with the significant increase in compute complexity, data sets, requirements for lower latency, better traffic predictability and so on?
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yeah. Harlan, I really appreciate that. Nearly everybody who thinks about AI, they think about that chip, that accelerator chip. And in fact, this is the whole point nearly completely.
+
+And I've mentioned before that accelerated computing is about the stack, about the software. And networking, remember, we announced very, very early on this networking stack called DOCA, and we have an acceleration library called Magnum IO. These two pieces of software are some of the crown jewels of our company. Nobody ever talks about it because it's hard to understand, but it makes it possible for us to connect tens of thousands of GPUs.
+
+How do you connect tens of thousands of GPUs if the operating system of the data center, which is the infrastructure, is not insanely great? And so, that's the reason why we're so obsessed about networking in the company. And one of the great things that we have, we have Mellanox, as you know quite well, was the world's highest performance and the unambiguous leader in high-performance networking. It's the reason why our two companies are together. You also see that our network expands starting from NVLink, which is a computing fabric with really super low latency, and it communicates using memory references, not network packaged.
+
+And then, we take NVLink. We connect it inside multiple GPUs, and I've described going beyond the GPU. And I'll talk a lot more about that at COMPUTEX in a few days. And then that gets connected to InfiniBand, which includes the NIC and the SmartNIC, BlueField-3 that we're in full production with and the switches.
+
+All of the fiber optics that are optimized end to end, these things are running at incredible line rates. And then, beyond that, if you want to connect the smart AI factory -- this AI factory into your computing fabric, we have a brand-new type of ethernet that we'll be announcing at COMPUTEX. And so the -- this whole area of the computing fabric extending -- connecting all of these GPUs and computing units together all the way through the networking, through the switches, the software stack is insanely complicated. And so, we're -- I'm delighted you understand it, and -- but we don't break it out particularly because we think of the whole thing as a computing platform as it should be.
+
+We sell it to all of the world's data centers as components so that they can integrate it into whatever style or architecture that they would like and we can still run our software stack. That's the reason why we break it up. It's way more complicated the way that we do it, but it makes it possible for NVIDIA's computing architecture to be integrated into anybody's data center in the world from cloud of all different kinds to on-prem of all different kinds, all the way out to the edge to 5G. And so, this way of doing it is really, really complicated, but it gives us incredible reach.
+
+Operator
+
+And our last question will come from Matt Ramsay with TD Cowen. Your line is open.
+
+Matt Ramsay -- Cowen and Company -- Analyst
+
+Thank you very much. Congratulations, Jensen, and to the whole team. One of the things I wanted to dig into a little bit is the DGX Cloud offering. You guys have been working on this for some time behind the scenes, where you sell in the hardware to your hyperscale partners and then lease it back for your own business.
+
+And the rest of us kind of found out about it publicly a few months ago. And as we look forward over the next number of quarters, as Colette discussed, the high visibility in the data center business, maybe you could talk a little bit about the mix you're seeing of hyperscale customers buying for their own first-party internal workloads versus their own sort of third party, their own customers versus what of that big upside in data center going forward is systems that you're selling in with potential to support your DGX Cloud offerings and what you've learned since you've launched it about the potential of that business. Thanks.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yeah. Thanks, Matt. It's -- without being too specific about numbers, but the ideal scenario, the ideal mix is something like 10% NVIDIA DGX Cloud and 90% the CSPs' clouds. And the reason -- and our DGX Cloud is the NVIDIA stack.
+
+It's the pure NVIDIA stack. It is architected the way we like and achieves the best possible performance. It gives us the ability to partner very deeply with the CSPs to create the highest-performing infrastructure, number one. Number two, it allows us to partner with the CSPs to create markets.
+
+Like for example, we're partnering with Azure to bring Omniverse Cloud to the world's industries. And the world has never had a system like that, the computing stack with all the generative AI stuff and all the 3D stuff and the physics stuff, incredibly large database and really high-speed networks and low-latency networks. That kind of a virtual -- industrial virtual world has never existed before. And so, we partnered with Microsoft to create Omniverse Cloud inside Azure Cloud.
+
+And so, it allows us, number two, to create new applications together and develop new markets together. And we go to market as one team. And we benefit by getting customers on our computing platform, and they benefit by having us in their cloud, number one. But number two, the amount of data and services and security services and all of the amazing things that Azure and GCP and OCI have, they can instantly have access to that through Omniverse Cloud.
+
+And so, it's a huge win-win. And for the customers, the way that NVIDIA's cloud works for these early applications, they could do it anywhere. So, one standard stack runs in all the clouds. And if they would like to take their software and run it on the CSP's cloud themselves and manage it themselves, we're delighted by that because NVIDIA AI Enterprise, NVIDIA AI Foundations, and long term, this is going to take a little longer, but NVIDIA Omniverse will run in the CSP's clouds.
+
+OK? So, our goal really is to drive architecture, to partner deeply in creating new markets and the new applications that we're doing and provide our customers with the flexibilities to run NVIDIA everywhere, including on-prem. And so, that -- those were the primary reasons for it. And it's worked out incredibly. Our partnership with the three CSPs and that we currently have DGX Cloud in and their sales force and marketing teams, their leadership teams is really quite spectacular.
+
+It works great.
+
+Operator
+
+Thank you. I'll now turn it back over to Jensen Huang for closing remarks.
+
+Jensen Huang -- President and Chief Executive Officer
+
+The computer industry is going through two simultaneous transitions, accelerated computing and generative AI. CPU scaling has slowed, yet computing demand is strong, and now, with generative AI, supercharged. Accelerated computing, a full stack and data center scale approach that NVIDIA pioneered is the best path forward. There's $1 trillion installed in the global data center infrastructure based on the general purpose computing method of the last era.
+
+Companies are now racing to deploy accelerated computing for the generative AI era. Over the next decade, most of the world's data centers will be accelerated. We are significantly increasing our supply to meet their surging demand. Large language models can learn information encoded in many forms.
+
+Guided by large language models, generative AI models can generate amazing content with models to fine-tune, guardrail, align to guiding principles. And ground -- ground to facts, generative AI is emerging from labs and is on its way to industrial applications. As we scale with cloud and internet service providers, we are also building platforms for the world's largest enterprises. Whether within one of our CSP partners or on-prem with Dell Helix, whether on a leading enterprise platform like ServiceNow and Adobe or bespoke with NVIDIA AI Foundations, we can help enterprises leverage their domain expertise and data to harness generative AI securely and safely.
+
+We are ramping a wave of products in the coming quarters, including H100, our Grace and Grace Hopper Superchips and our BlueField-3 and Spectrum-4 networking platform. They are all in production. They will help deliver data center scale computing that is also energy-efficient and sustainable computing. Join us next week at COMPUTEX, and we'll show you what's next.
+
+Thank you.
+
+Operator
+
+[Operator signoff]
+
+Duration: 0 minutes
+
+Call participants:
+Simona Jankowski -- Vice President, Investor Relations
+
+Colette Kress -- Executive Vice President and Chief Financial Officer
+
+Toshi Hari -- Goldman Sachs -- Analyst
+
+Jensen Huang -- President and Chief Executive Officer
+
+C.J. Muse -- Evercore ISI -- Analyst
+
+Vivek Arya -- Bank of America Merrill Lynch -- Analyst
+
+Aaron Rakers -- Wells Fargo Securities -- Analyst
+
+Tim Arcuri -- UBS -- Analyst
+
+Stacy Rasgon -- Bernstein Research -- Analyst
+
+Joe Moore -- Morgan Stanley -- Analyst
+
+Harlan Sur -- JPMorgan Chase and Company -- Analyst
+
+Matt Ramsay -- Cowen and Company -- Analyst
+

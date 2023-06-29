@@ -1,14 +1,24 @@
 [tool.poetry]
 name = "private-chatbot-mpt30b"
 version = "0.1.0"
-description = "Private chatbot  on your CPU using mpt-30b and langchain"
+description = "Private chatbot on your CPU using mpt-30b and langchain"
 authors = ["mayo <Twitter: @mayowaoshin>"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 langchain = "^0.0.218"
 ctransformers = "^0.2.10"
 huggingface-hub = "^0.15.1"
+uvicorn = "^0.22.0"
+chromadb = "^0.3.26"
+pymupdf = "^1.22.5"
+unstructured = "^0.7.10"
+extract-msg = "^0.41.5"
+requests = "^2.31.0"
+isort = "^5.12.0"
+black = "^23.3.0"
+sentence-transformers = "^2.2.2"
 
 
 [build-system]

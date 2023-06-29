@@ -1,5 +1,7 @@
 import os
+
 from huggingface_hub import hf_hub_download
+
 """
 Download mpt-30B-chat-GGML model from huggingface hub
 """
@@ -11,7 +13,7 @@ def download_mpt_model(destination_folder: str, repo_id: str, model_filename: st
         repo_id=repo_id,
         filename=model_filename,
         local_dir=local_path,
-        local_dir_use_symlinks=True
+        local_dir_use_symlinks=True,
     )
 
 
@@ -22,3 +24,4 @@ if __name__ == "__main__":
     model_filename = "mpt-30b-chat.ggmlv0.q4_1.bin"
     destination_folder = "models"
     download_mpt_model(destination_folder, repo_id, model_filename)
+    print("model downloaded")

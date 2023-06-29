@@ -1,4 +1,3 @@
-
 default_system_prompt = "A conversation between a user and an LLM-based AI assistant named Local Assistant. Local Assistant gives helpful and honest answers."
 
 PROMPT_TEMPLATE_FOR_GENERATION = """{system_prompt}
